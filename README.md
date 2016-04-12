@@ -8,7 +8,7 @@ Little script to toggle between shown and hidden files on your Mac.
 * Open `Show-Hide files.dmg`
 * Copy `Show-Hide files.app` to your `/Applications` folder
 
-## Compiling using AppleScript Editor
+## Debug/Compile it yourself using AppleScript Editor
 
 * Download [Show-Hide files.scpt](https://github.com/hiulit/show-hide-files-script-mac/blob/master/Show-Hide%20files.scpt?raw=true) source code
 * Open `Show-Hide files.scpt` with AppleScript Editor

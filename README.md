@@ -49,9 +49,17 @@ do shell script "killall Finder"
 
 ## Debug/Compile it yourself using AppleScript Editor
 
-* Download [Show-Hide files.scpt](https://github.com/hiulit/show-hide-files-script-mac/blob/master/Show-Hide%20files.scpt?raw=true) source code
-* Open `Show-Hide files.scpt` with AppleScript Editor
-* Go to `File -> Export`
-* Set a name
-* Choose `Application` as the `File format`
-* Click `Save`
+Download [Show-Hide files.scpt](https://github.com/hiulit/show-hide-files-script-mac/blob/master/Show-Hide%20files.scpt?raw=true) source code
+
+### Debugging from source code
+* Open `Show-Hide files.scpt` with AppleScript Editor.
+* Play with it.
+* Click the hammer icon to compile it.
+* Click the play icon to execute it.
+
+### Compiling into an `.app`
+* Open `Show-Hide files.scpt` with AppleScript Editor.
+* Go to `File -> Export`.
+* Set a name.
+* Choose `Application` as the `File format`.
+* Click `Save`.

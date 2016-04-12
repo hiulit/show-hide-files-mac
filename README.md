@@ -6,7 +6,8 @@ Little script to toggle between shown and hidden files on your Mac.
 try
 	do shell script "defaults read com.apple.Finder AppleShowAllFiles"
 on error
-	display dialog "Couldn't get hidden files current state. Are they shown or hidden?" buttons {"Shown", "Hidden", "I don't know, get me out of here!"} with title "Warning - Show/Hide files" with icon caution
+	display dialog "Couldn't get hidden files' current state. Are they shown or hidden?" buttons {"Shown", "Hidden", "I don't know, get me out of here!"} with title "Warning - Show/Hide files" with icon caution
+	
 	set result to button returned of result
 	
 	if result is equal to "Shown" then

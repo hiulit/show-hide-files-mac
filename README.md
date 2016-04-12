@@ -63,3 +63,8 @@ Download [Show-Hide files.scpt](https://github.com/hiulit/show-hide-files-script
 * Set a name.
 * Choose `Application` as the `File format`.
 * Click `Save`.
+
+##Changelog
+
+v1.0.0 (April 12th 2016)
+* Initial commit

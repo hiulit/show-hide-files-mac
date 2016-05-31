@@ -2,6 +2,8 @@
 
 Little script to toggle between visible and hidden files on your Mac.
 
+Here's a glance of the script without localization.
+
 ```bash
 try
 	do shell script "defaults read com.apple.Finder AppleShowAllFiles"
@@ -43,28 +45,41 @@ do shell script "killall Finder"
 
 ## Installation
 
-* Download [Show-Hide files.dmg](https://github.com/hiulit/show-hide-files-script-mac/blob/master/Show-Hide%20files.dmg?raw=true)
-* Open `Show-Hide files.dmg`
-* Copy `Show-Hide files.app` to your `/Applications` folder
+* Download the [Show-Hide files](https://github.com/hiulit/show-hide-files-script-mac/archive/master.zip) zip file.
+* Open `Show-Hide files.dmg`.
+* Copy `Show-Hide files.app` to your `/Applications` folder.
 
 ## Debug/Compile it yourself using AppleScript Editor
 
-Download [Show-Hide files.scpt](https://github.com/hiulit/show-hide-files-script-mac/blob/master/Show-Hide%20files.scpt?raw=true) source code
+Download the [Show-Hide files](https://github.com/hiulit/show-hide-files-script-mac/archive/master.zip) zip file.
 
 ### Debugging from source code
-* Open `Show-Hide files.scpt` with AppleScript Editor.
+* Open `Show-Hide files.scptd` with AppleScript Editor.
 * Play with it.
-* Click the hammer icon to compile it.
-* Click the play icon to execute it.
+* Click the **hammer** icon to **compile** it.
+* Click the **play** icon to **execute** it.
 
 ### Compiling into an `.app`
-* Open `Show-Hide files.scpt` with AppleScript Editor.
-* Go to `File -> Export`.
-* Set a name.
+* Open `Show-Hide files.scptd` with AppleScript Editor.
+* Go to `File > Export`.
+* Enter a name.
 * Choose `Application` as the `File format`.
 * Click `Save`.
 
+## Adding translations
+* Download the [Show-Hide files](https://github.com/hiulit/show-hide-files-script-mac/archive/master.zip) zip file.
+* Right-click on `Show-hide files.scptd` to open the contextual menu and then click on `Show Package Contents`.
+* Go to `Contents > Resources` and create a new folder called `<lang>.lproj` (e.g. `de.lproj` for German or `fr.lproj` for French).
+* Go to `English.lproj` and copy `Localizable.strings` to the new `<lang>.lproj` recently created.
+* Open `Localizable.strings` with your preferred text editor. You'll notice a `"key" = "value";` pattern.
+* Translate the `"values"` into the desired language.
+
+PRs are welcome! ;)
+
 ##Changelog
 
-v1.0.0 (April 12th 2016)
-* Initial commit
+### v2.0.0 (May 30th 2016)
+* Added localization in Catalan, English and Spanish.
+
+### v1.0.0 (April 12th 2016)
+* Initial commit.

@@ -1,0 +1,11 @@
+"Couldn't get the current state of hidden files. Are they visible or are they hidden?" = "No s'ha pogut obtenir l'estat actual dels arxius ocults. Són visibles o estan ocults?";
+"Visible" = "Visibles";
+"Hidden" = "Ocults";
+"I don't know, get me outta here!" = "No ho sé, treu-me d'aquí!";
+"Warning - Show/Hide files" = "Advertència - Mostrar/Ocultar arxius";
+"Show/Hide files" = "Mostrar/Ocultar arxius";
+"Files are visible. What do you want to do?" = "Els arxius són visibles. Què vols fer?";
+"Hide them!" = "Ocultar-los!";
+"Files are hidden. What do you want to do?" = "Els arxius estan ocults. Què vols fer?";
+"Show them!" = "Mostrar-los!";
+"Nothing... It's okay" = "Res... Està bé";

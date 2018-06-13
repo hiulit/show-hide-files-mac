@@ -76,7 +76,7 @@ Download the [Show-Hide files](https://github.com/hiulit/show-hide-files-script-
 
 PRs are welcome! ;)
 
-##Changelog
+## Changelog
 
 ### v2.0.0 (May 30th 2016)
 * Added localization in Catalan, English and Spanish.
